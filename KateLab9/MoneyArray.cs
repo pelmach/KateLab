@@ -4,7 +4,6 @@
     {
         Money[] mas;
         int size;
-        int index = 0;
         int count = 0;
 
         public MoneyArray() // конструктор без параметров
@@ -15,18 +14,15 @@
         }
         public MoneyArray(int size) // конструктор с рандомным вводом элементов
         {
-            Money money = new Money();
-            Random rnd = new Random();
             mas = new Money[size];
+            Random rnd = new Random();
             for (int i = 0; i < size; i++)
             {
                 Money money1 = new Money(rnd.Next(0, 99), rnd.Next(0, 99));
                 mas[i] = money1;
-                count++;
+                Console.WriteLine(mas[i]);
             }
-            Console.WriteLine(count);
-            count = 0;
-            
+
         }
 
         public MoneyArray(MoneyArray[] mas) // конструктор с вводом элементов с клавиатуры
@@ -43,19 +39,21 @@
         }
         public MoneyArray this[int index] // индексатор
         {
-            get => (MoneyArray)mas[index];
-            set => mas[index] = value;
-
+            get
+            {
+                // Получает значение и проверяет существиет ли такой индекс в массиве 
+                if (index >= 0 && index < mas.Length)
+                    return (MoneyArray)mas[index]; // Возвращается объект по индексу
+                else
+                    throw new ArgumentOutOfRangeException("index"); // генерация исключения индекса
+            }
+            set
+            {
+                // Устанавливает индекс в массиве
+                if (index >= 0 && index < mas.Length)
+                    mas[index] = value;
+            }
         }
-        public void Show(int index) // просмотр элемента массива
-        {
-            
-            MoneyArray moneyArray = this[index];
-            Money money = moneyArray;
-            money.Show(money);
-        }
-        
-        }
-
     }
 }
+

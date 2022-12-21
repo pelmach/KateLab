@@ -8,13 +8,12 @@ namespace KateLab9
             Money money = new Money(5, 40);
             money.Show(money);
 
-            MoneyArray mas = new MoneyArray(3);
-            mas.Show(1);
+            MoneyArray moneyArray1 = new MoneyArray(3); // Cоздает 3 объекта класса и выводит их в консоль, как KateLab9.Money
 
-            MoneyArray moneyArray = new MoneyArray();
-            moneyArray.Show(moneyArray);
-            MoneyArray moneyArray1 = new MoneyArray(5);
-            moneyArray1.Show(moneyArray1);
+
+            MoneyArray moneyArray2 = new MoneyArray();
+            moneyArray2.Show(moneyArray2);
+            
 
             Random rnd = new Random();
             Money money1 = new Money(rnd.Next(0, 99), rnd.Next(0, 99));
@@ -37,3 +36,4 @@ namespace KateLab9
 
    
 }
+
