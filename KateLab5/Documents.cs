@@ -10,6 +10,12 @@ namespace KateLab5
         public int Weigth { get; set; }
         public int Heigth { get; set; }
         public string Color { get; set; }
+        
+        public virtual void Info()
+        {
+
+        }
+        
 
         object Icloneable.Clone()
         {
@@ -61,6 +67,7 @@ namespace KateLab5
             Heigth = heigth;
             Color = color;
         }
+
 
 
         public void ColorPrint()

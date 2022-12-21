@@ -24,7 +24,7 @@ namespace KateLab5
             String[] masStr = new string[] { "Black", "White", "Blue", "Crey", "PaperColor", "Red", "Orange", "Green" };
             Color = masStr[random.Next(0, 7)];
         }
-        void Info()
+        void  Info()
         {
 
         }
@@ -66,11 +66,7 @@ namespace KateLab5
                 new Receipt(5, 24, "Red", 1.44, "Arsen")
             };
 
-            foreach (Documents c in iinits)
-                Console.WriteLine(c.Heigth + "\t\t" + c.Weigth);
-            Console.WriteLine();
-
-            Array.Sort(iinits);
+            /*Array.Sort(iinits);
             foreach (Documents c in iinits)
                 Console.WriteLine(c.Heigth + "\t\t" + c.Weigth);
 
@@ -84,7 +80,7 @@ namespace KateLab5
 
             object Myobject = 1;
             FindObject(iinits, Myobject);
-
+*/
 
         }
 
