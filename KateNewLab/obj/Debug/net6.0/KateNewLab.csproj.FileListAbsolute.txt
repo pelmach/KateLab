@@ -1,0 +1,15 @@
+C:\Users\Даниил\source\repos\KateNewLab\bin\Debug\net6.0\KateNewLab.exe
+C:\Users\Даниил\source\repos\KateNewLab\bin\Debug\net6.0\KateNewLab.deps.json
+C:\Users\Даниил\source\repos\KateNewLab\bin\Debug\net6.0\KateNewLab.runtimeconfig.json
+C:\Users\Даниил\source\repos\KateNewLab\bin\Debug\net6.0\KateNewLab.dll
+C:\Users\Даниил\source\repos\KateNewLab\bin\Debug\net6.0\KateNewLab.pdb
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\KateNewLab.csproj.AssemblyReference.cache
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\KateNewLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\KateNewLab.AssemblyInfoInputs.cache
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\KateNewLab.AssemblyInfo.cs
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\KateNewLab.csproj.CoreCompileInputs.cache
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\KateNewLab.dll
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\refint\KateNewLab.dll
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\KateNewLab.pdb
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\KateNewLab.genruntimeconfig.cache
+C:\Users\Даниил\source\repos\KateNewLab\obj\Debug\net6.0\ref\KateNewLab.dll
